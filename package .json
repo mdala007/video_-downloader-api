@@ -1,0 +1,11 @@
+{
+  "name": "video-downloader-api",
+  "version": "1.0.0",
+  "scripts": { "start": "node api/index.js" },
+  "dependencies": {
+    "express": "^4.19.2",
+    "cors": "^2.8.5",
+    "yt-dlp-exec": "^2.0.0"
+  },
+  "engines": { "node": "18.x" }
+}
